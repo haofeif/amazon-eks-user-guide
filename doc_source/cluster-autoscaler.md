@@ -149,7 +149,7 @@ If you used the previous `eksctl` commands to create your node groups, these tag
            - --skip-nodes-with-local-storage=false
            - --expander=least-waste
            - --node-group-auto-discovery=asg:tag=k8s.io/cluster-autoscaler/enabled,k8s.io/cluster-autoscaler/<YOUR CLUSTER NAME>
-           - --balance-similar-node-groups
+           - --balance-similar-node-groups=true
            - --skip-nodes-with-system-pods=false
    ```
 
